@@ -1,0 +1,136 @@
+*{
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background: #def8cf;
+}
+nav{
+  background-color: #acef88 !important;
+}
+nav .navbar-brand{
+  color: white !important;
+  margin-left: 50px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.card form .btn {
+  background: white;
+  border-color: #acef88;
+  color: #8ac26b;
+  border-radius: 10px;
+  padding: 7px;
+  box-shadow: none;
+  text-shadow: none;
+  transition: all 0.3s ease;
+}
+
+.card form .form-control {
+  border-radius: 10px;
+}
+
+.card form .btn:hover {
+  border-color: white !important;
+  background: #acef88 !important;
+  color: #fff !important;
+}
+
+.card form .btn:active,
+.card form .btn:checked {
+  background: #acef88 !important;
+  border-color: #2e0f2d;
+  color: #fff !important;
+  
+}
+.second-navbar{
+  background-color: #fcfcbc !important;
+}
+.nav-item .nav-link{
+  color:white;
+}
+.dropdown-menu{
+  background-color: #b4ff8b;
+}
+.dropdown-menu .dropdown-item {
+  color: white; 
+  background-color: #b4ff8b;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: white;
+  color: #b4ff8b
+}
+.page-link{
+  background-color: white;
+  color: #84dc54
+}
+.page-link:hover{
+  background-color: rgb(232, 232, 232);
+  color: #71bd48
+}
+.page-item.active .page-link{
+  background-color: #84dc54;
+  color: white;
+}
+
+.card{
+  box-shadow: 0 1px 20px 0 rgba(69,90,100,0.10);
+}
+.row .col-md-4{
+  background: #a3dd84; 
+  align-items: center; 
+  justify-content: center;
+}
+.card-img {
+  object-fit: cover;
+  width: 325px;
+  height: 332px;
+  margin-top: 40px;
+  padding-left: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title {
+  color: #8ac26b;
+}
+.card-block {
+  padding: 1.25rem;
+}
+
+.m-b-25 {
+  margin-bottom: 25px;
+}
+
+.card .card-block p {
+  line-height: 25px;
+}
+
+@media only screen and (min-width: 1400px) {
+  p {
+      font-size: 14px;
+  }
+}
+
+.b-b-default {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.m-b-20 {
+  margin-bottom: 20px;
+}
+
+.p-b-5 {
+  padding-bottom: 5px !important;
+}
+
+.text-muted {
+  color: #919aa3 !important;
+}
+
+.f-w-600 {
+  font-weight: 600;
+}
+
+.m-t-40 {
+  margin-top: 20px;
+}
